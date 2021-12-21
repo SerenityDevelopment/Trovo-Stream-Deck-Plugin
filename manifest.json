@@ -1,0 +1,44 @@
+{
+	"Actions": [
+		{
+			"Icon": "Images/icon",
+			"Name": "Send Message",
+			"States": [
+				{
+					"Image": "Images/pluginAction",
+					"TitleAlignment": "middle",
+					"FontSize": "12"
+				}
+			],
+			"SupportedInMultiActions": true,
+			"Tooltip": "Send a predefined message to your Trovo chat.",
+			"UUID": "me.cupara.trovo",
+			"PropertyInspectorPath": "PropertyInspector/Trovo.html"
+		}
+	],
+	"Author": "SerenityDevelopment",
+	"Description": "Send a pre-defined message to chat, show current number of followers, show current number of viewers when you're live, setup buttons to display when your favorite streamer are live, and change the game/title of your stream on the fly.",
+	"Name": "Trovo",
+	"Icon": "Images/pluginIcon",
+	"URL": "https://github.com/SerenityDevelopment/Trovo-Stream-Deck-Plugin",
+	"Version": "0.1",
+	"CodePath": "me.cupara.trovo",
+	"Category": "Streaming",
+	"CategoryIcon": "Images/categoryIcon",
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "4.4.1"
+	},
+	"ApplicationsToMonitor": {
+		"windows": [
+			"",
+		]
+	}
+
+}
